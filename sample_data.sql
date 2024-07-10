@@ -1,0 +1,84 @@
+-- Insert sample products
+INSERT INTO products (name, price, stock) VALUES ('Croissant', 2.5, 50);
+INSERT INTO products (name, price, stock) VALUES ('Baguette', 1.5, 30);
+INSERT INTO products (name, price, stock) VALUES ('Sourdough Bread', 3.0, 20);
+INSERT INTO products (name, price, stock) VALUES ('Chocolate Cake', 15.0, 10);
+INSERT INTO products (name, price, stock) VALUES ('Muffin', 2.0, 40);
+INSERT INTO products (name, price, stock) VALUES ('Cinnamon Roll', 2.8, 35);
+INSERT INTO products (name, price, stock) VALUES ('Eclair', 3.5, 25);
+INSERT INTO products (name, price, stock) VALUES ('Donut', 1.5, 50);
+INSERT INTO products (name, price, stock) VALUES ('Bagel', 1.8, 45);
+INSERT INTO products (name, price, stock) VALUES ('Pretzel', 2.2, 30);
+INSERT INTO products (name, price, stock) VALUES ('Brownie', 2.5, 25);
+INSERT INTO products (name, price, stock) VALUES ('Cupcake', 2.0, 30);
+INSERT INTO products (name, price, stock) VALUES ('Macaron', 1.2, 100);
+INSERT INTO products (name, price, stock) VALUES ('Pavlova', 12.0, 10);
+INSERT INTO products (name, price, stock) VALUES ('Cheesecake', 20.0, 8);
+INSERT INTO products (name, price, stock) VALUES ('Tart', 3.0, 15);
+INSERT INTO products (name, price, stock) VALUES ('Puff Pastry', 2.0, 50);
+INSERT INTO products (name, price, stock) VALUES ('Fruit Cake', 25.0, 5);
+INSERT INTO products (name, price, stock) VALUES ('Lemon Cake', 10.0, 12);
+INSERT INTO products (name, price, stock) VALUES ('Carrot Cake', 15.0, 10);
+
+-- Insert sample customers
+INSERT INTO customers (name, email, phone) VALUES ('John Doe', 'john@example.com', '1234567890');
+INSERT INTO customers (name, email, phone) VALUES ('Jane Smith', 'jane@example.com', '0987654321');
+INSERT INTO customers (name, email, phone) VALUES ('Alice Johnson', 'alice@example.com', '1112223333');
+INSERT INTO customers (name, email, phone) VALUES ('Bob Brown', 'bob@example.com', '2223334444');
+INSERT INTO customers (name, email, phone) VALUES ('Charlie Davis', 'charlie@example.com', '3334445555');
+INSERT INTO customers (name, email, phone) VALUES ('Dana White', 'dana@example.com', '4445556666');
+INSERT INTO customers (name, email, phone) VALUES ('Eve Black', 'eve@example.com', '5556667777');
+INSERT INTO customers (name, email, phone) VALUES ('Frank Green', 'frank@example.com', '6667778888');
+INSERT INTO customers (name, email, phone) VALUES ('Grace Hall', 'grace@example.com', '7778889999');
+INSERT INTO customers (name, email, phone) VALUES ('Hank King', 'hank@example.com', '8889990000');
+INSERT INTO customers (name, email, phone) VALUES ('Ivy Lee', 'ivy@example.com', '9990001111');
+INSERT INTO customers (name, email, phone) VALUES ('Jack White', 'jack@example.com', '0001112222');
+INSERT INTO customers (name, email, phone) VALUES ('Kelly Green', 'kelly@example.com', '1112223333');
+INSERT INTO customers (name, email, phone) VALUES ('Liam Hill', 'liam@example.com', '2223334444');
+INSERT INTO customers (name, email, phone) VALUES ('Mona Young', 'mona@example.com', '3334445555');
+INSERT INTO customers (name, email, phone) VALUES ('Nick Wood', 'nick@example.com', '4445556666');
+INSERT INTO customers (name, email, phone) VALUES ('Olivia Price', 'olivia@example.com', '5556667777');
+INSERT INTO customers (name, email, phone) VALUES ('Paul Fox', 'paul@example.com', '6667778888');
+INSERT INTO customers (name, email, phone) VALUES ('Quinn Reed', 'quinn@example.com', '7778889999');
+INSERT INTO customers (name, email, phone) VALUES ('Rita Hughes', 'rita@example.com', '8889990000');
+
+-- Insert sample orders
+INSERT INTO orders (customer_id, order_date, total) VALUES (1, '2024-07-10', 5.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (2, '2024-07-11', 3.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (3, '2024-07-12', 20.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (4, '2024-07-13', 15.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (5, '2024-07-14', 30.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (6, '2024-07-15', 10.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (7, '2024-07-16', 25.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (8, '2024-07-17', 40.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (9, '2024-07-18', 50.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (10, '2024-07-19', 60.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (11, '2024-07-20', 70.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (12, '2024-07-21', 80.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (13, '2024-07-22', 90.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (14, '2024-07-23', 100.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (15, '2024-07-24', 110.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (16, '2024-07-25', 120.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (17, '2024-07-26', 130.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (18, '2024-07-27', 140.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (19, '2024-07-28', 150.0);
+INSERT INTO orders (customer_id, order_date, total) VALUES (20, '2024-07-29', 160.0);
+
+-- Insert sample order items
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (1, 1, 2);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (2, 2, 2);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (3, 3, 1);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (4, 4, 1);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (5, 5, 5);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (6, 6, 3);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (7, 7, 2);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (8, 8, 5);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (9, 9, 10);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (10, 10, 5);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (11, 11, 5);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (12, 12, 10);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (13, 13, 15);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (14, 14, 20);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (15, 15, 1);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (16, 16, 2);
+INSERT INTO order_items (order_id, product_id, quantity) VALUES (17, 17, 3);
