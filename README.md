@@ -61,4 +61,4 @@ The `sample_data.sql` file contains initial data for the tables.
 
 ## ER Diagram
 
-![Bakehouse-Manager-ER-Diagram](https://github.com/rajanmanickam23/Bakehouse-Manager/assets/173341526/5e05172e-94ad-4ef0-ace5-692b5effac35)
+![Bakehouse-Manager-ER-Diagram](Bakehouse-Manager-ER-Diagram.png)
